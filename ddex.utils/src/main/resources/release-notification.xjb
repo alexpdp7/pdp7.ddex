@@ -1,0 +1,14 @@
+<jxb:bindings version="1.0" xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<jxb:bindings schemaLocation="release-notification.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="net.pdp7.ddex.utils.jaxb"/>
+		</jxb:schemaBindings>
+
+		<!-- rename the value element -->
+		<jxb:bindings node="//xs:complexType[@name='PriceInformation']">
+			<jxb:bindings node=".//xs:attribute[@name='PriceType']">
+				<jxb:property name="PriceInformationType"/>
+			</jxb:bindings>
+		</jxb:bindings>
+	</jxb:bindings> 
+</jxb:bindings> 
