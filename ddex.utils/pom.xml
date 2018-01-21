@@ -43,5 +43,10 @@
 			<artifactId>jaxb-api</artifactId>
 			<version>2.2.12-b140109.1041</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
 	</dependencies>
 </project>
