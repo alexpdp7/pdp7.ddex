@@ -1,6 +1,7 @@
 package net.pdp7.ddex.utils;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -23,6 +24,14 @@ public class DdexToTableConverter {
 			return convert((NewReleaseMessage) createUnmarshaller().unmarshal(file));
 		} catch (JAXBException e) {
 			throw new DdexToTableConverterException.XmlProblem(file, e);
+		}
+	}
+
+	public Stream<Map<String, Object>> convert(InputStream inputStream) {
+		try {
+			return convert((NewReleaseMessage) createUnmarshaller().unmarshal(inputStream));
+		} catch (JAXBException e) {
+			throw new DdexToTableConverterException.XmlProblem(inputStream, e);
 		}
 	}
 
@@ -89,15 +98,13 @@ public class DdexToTableConverter {
 		}
 
 		public static class XmlProblem extends DdexToTableConverterException {
-			public final File file;
-			public final JAXBException exception;
-
 			public XmlProblem(File file, JAXBException e) {
 				super("XML problem with " + file, e);
-				this.file = file;
-				this.exception = e;
 			}
 
+			public XmlProblem(InputStream inputStream, JAXBException e) {
+				super("XML problem with " + inputStream, e);
+			}
 		}
 	}
 }
