@@ -1,1 +1,0 @@
-web: sh ddex.utils/target/bin/webapp
