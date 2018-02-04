@@ -53,7 +53,7 @@ public class DdexToTableConverter {
 		ReleaseId releaseId = parentRelease.getReleaseId().get(0);
 		parentReleaseColumns.put("GRID", releaseId.getGRid());
 		parentReleaseColumns.put("EAN", releaseId.getICPN().getValue());
-		parentReleaseColumns.put("Catalog Number", releaseId.getCatalogNumber().getValue());
+		parentReleaseColumns.put("Release Catalog Number", releaseId.getCatalogNumber().getValue());
 		parentReleaseColumns.put("Release Title", parentRelease.getReferenceTitle().getTitleText().getValue());
 		return parentReleaseColumns;
 	}
@@ -64,14 +64,14 @@ public class DdexToTableConverter {
 		trackColumns.put("Track Title", track.getReferenceTitle().getTitleText().getValue());
 		trackColumns.put("Track Subtitle", Optional.ofNullable(track.getReferenceTitle().getSubTitle()).map(SubTitle::getValue).orElse(""));
 		List<Artist> releaseDisplayArtists = track.getReleaseDetailsByTerritory().get(0).getDisplayArtist();
-		trackColumns.put("Primary Artist", findMainArtist(releaseDisplayArtists).getPartyName().get(0).getFullName().getValue());
-		trackColumns.put("Featured Artists", findArtistsOfRole(releaseDisplayArtists, ArtistRole.FEATURED_ARTIST)
+		trackColumns.put("Track Primary Artist", findMainArtist(releaseDisplayArtists).getPartyName().get(0).getFullName().getValue());
+		trackColumns.put("Track Featured Artists", findArtistsOfRole(releaseDisplayArtists, ArtistRole.FEATURED_ARTIST)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
-		trackColumns.put("Authors", findArtistsOfRole(releaseDisplayArtists, ArtistRole.AUTHOR)
+		trackColumns.put("Track Authors", findArtistsOfRole(releaseDisplayArtists, ArtistRole.AUTHOR)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
-		trackColumns.put("Composers", findArtistsOfRole(releaseDisplayArtists, ArtistRole.COMPOSER)
+		trackColumns.put("Track Composers", findArtistsOfRole(releaseDisplayArtists, ArtistRole.COMPOSER)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
 		trackColumns.put("Duration", Duration.parse(track.getDuration().toString()).getSeconds());
