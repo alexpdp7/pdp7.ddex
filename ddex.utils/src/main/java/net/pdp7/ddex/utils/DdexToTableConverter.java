@@ -76,6 +76,7 @@ public class DdexToTableConverter {
 				.collect(Collectors.joining(", ")));
 		trackColumns.put("Duration", Duration.parse(track.getDuration().toString()).getSeconds());
 		trackColumns.put("Track Label", track.getReleaseDetailsByTerritory().get(0).getLabelName().get(0).getValue());
+		trackColumns.put("Track Genre", track.getReleaseDetailsByTerritory().get(0).getGenre().stream().map(g -> g.getGenreText().getValue()).collect(Collectors.joining(", ")));
 		return trackColumns;
 	}
 
