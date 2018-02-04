@@ -2,6 +2,7 @@ package net.pdp7.ddex.utils;
 
 import java.io.File;
 import java.io.InputStream;
+import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -73,6 +74,7 @@ public class DdexToTableConverter {
 		trackColumns.put("Composers", findArtistsOfRole(releaseDisplayArtists, ArtistRole.COMPOSER)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
+		trackColumns.put("Duration", Duration.parse(track.getDuration().toString()).getSeconds());
 		return trackColumns;
 	}
 
