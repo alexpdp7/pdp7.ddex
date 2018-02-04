@@ -77,7 +77,6 @@ public class DdexToTableConverter {
 	}
 
 	protected Artist findMainArtist(List<Artist> artists) {
-		System.out.println(artists.stream().map(a -> a.getArtistRole().get(0).getValue()).collect(Collectors.toList()));
 		return findArtistsOfRole(artists, ArtistRole.MAIN_ARTIST)
 				.reduce((a, b) -> { throw new DdexToTableConverterException.MultipleMainArtistsFound(artists); })
 				.get();
