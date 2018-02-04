@@ -67,6 +67,12 @@ public class DdexToTableConverter {
 		trackColumns.put("Featured Artists", findArtistsOfRole(releaseDisplayArtists, ArtistRole.FEATURED_ARTIST)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
+		trackColumns.put("Authors", findArtistsOfRole(releaseDisplayArtists, ArtistRole.AUTHOR)
+				.map(a -> a.getPartyName().get(0).getFullName().getValue())
+				.collect(Collectors.joining(", ")));
+		trackColumns.put("Composers", findArtistsOfRole(releaseDisplayArtists, ArtistRole.COMPOSER)
+				.map(a -> a.getPartyName().get(0).getFullName().getValue())
+				.collect(Collectors.joining(", ")));
 		return trackColumns;
 	}
 
