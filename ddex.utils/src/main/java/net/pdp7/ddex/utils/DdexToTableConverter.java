@@ -3,15 +3,19 @@ package net.pdp7.ddex.utils;
 import java.io.File;
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
+import net.ddex.xml.avs.avs.ArtistRole;
 import net.ddex.xml.avs.avs.ReleaseType;
+import net.pdp7.ddex.utils.jaxb.Artist;
 import net.pdp7.ddex.utils.jaxb.NewReleaseMessage;
 import net.pdp7.ddex.utils.jaxb.Release;
 import net.pdp7.ddex.utils.jaxb.ReleaseId;
@@ -58,9 +62,25 @@ public class DdexToTableConverter {
 		trackColumns.put("ISRC", track.getReleaseId().get(0).getISRC());
 		trackColumns.put("Track Title", track.getReferenceTitle().getTitleText().getValue());
 		trackColumns.put("Track Subtitle", Optional.ofNullable(track.getReferenceTitle().getSubTitle()).map(SubTitle::getValue).orElse(""));
+		List<Artist> releaseDisplayArtists = track.getReleaseDetailsByTerritory().get(0).getDisplayArtist();
+		trackColumns.put("Primary Artist", findMainArtist(releaseDisplayArtists).getPartyName().get(0).getFullName().getValue());
+		trackColumns.put("Featured Artists", findArtistsOfRole(releaseDisplayArtists, ArtistRole.FEATURED_ARTIST)
+				.map(a -> a.getPartyName().get(0).getFullName().getValue())
+				.collect(Collectors.joining(", ")));
 		return trackColumns;
 	}
+
+	protected Artist findMainArtist(List<Artist> artists) {
+		System.out.println(artists.stream().map(a -> a.getArtistRole().get(0).getValue()).collect(Collectors.toList()));
+		return findArtistsOfRole(artists, ArtistRole.MAIN_ARTIST)
+				.reduce((a, b) -> { throw new DdexToTableConverterException.MultipleMainArtistsFound(artists); })
+				.get();
+	}
 	
+	protected Stream<Artist> findArtistsOfRole(List<Artist> artists, ArtistRole role) {
+		return artists.stream().filter(a -> a.getArtistRole().get(0).getValue().equals(role));
+	}
+
 	protected Release findParentRelease(NewReleaseMessage newReleaseMessage) {
 		return findReleasesOfType(newReleaseMessage, ReleaseType.ALBUM)
 				.reduce((a, b) -> { throw new DdexToTableConverterException.MultipleParentReleasesFound(newReleaseMessage); })
@@ -94,6 +114,15 @@ public class DdexToTableConverter {
 			protected MultipleParentReleasesFound(NewReleaseMessage newReleaseMessage) {
 				super("Multiple parent releases found in " + newReleaseMessage);
 				this.newReleaseMessage = newReleaseMessage;
+			}
+		}
+
+		public static class MultipleMainArtistsFound extends DdexToTableConverterException {
+			public final List<Artist> artists;
+
+			public MultipleMainArtistsFound(List<Artist> artists) {
+				super("Multiple main artists found in " + artists);
+				this.artists = artists;
 			}
 		}
 
