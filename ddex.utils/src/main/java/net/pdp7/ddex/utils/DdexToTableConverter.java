@@ -62,7 +62,9 @@ public class DdexToTableConverter {
 
 	protected Map<String, Object> getTrackColumns(Release track) {
 		Map<String, Object> trackColumns = new HashMap<String, Object>();
-		trackColumns.put("ISRC", track.getReleaseId().get(0).getISRC());
+		String isrc = track.getReleaseId().get(0).getISRC();
+		trackColumns.put("ISRC", isrc);
+		trackColumns.put("Track Production Year", getProductionYearFrom(isrc));
 		trackColumns.put("Track Title", track.getReferenceTitle().getTitleText().getValue());
 		trackColumns.put("Track Subtitle", Optional.ofNullable(track.getReferenceTitle().getSubTitle()).map(SubTitle::getValue).orElse(""));
 		List<Artist> releaseDisplayArtists = track.getReleaseDetailsByTerritory().get(0).getDisplayArtist();
@@ -80,6 +82,12 @@ public class DdexToTableConverter {
 		trackColumns.put("Track Label", track.getReleaseDetailsByTerritory().get(0).getLabelName().get(0).getValue());
 		trackColumns.put("Track Genre", track.getReleaseDetailsByTerritory().get(0).getGenre().stream().map(g -> g.getGenreText().getValue()).collect(Collectors.joining(", ")));
 		return trackColumns;
+	}
+
+	protected int getProductionYearFrom(String isrc) {
+		int productionYy = Integer.parseInt(isrc.substring(5,7));
+		int productionYear = productionYy < 30 ? 2000 + productionYy : 1900 + productionYy;
+		return productionYear;
 	}
 
 	protected Artist findMainArtist(List<Artist> artists) {

@@ -12,4 +12,8 @@ public class DdexToTableConverterTest extends TestCase {
 		List<Map<String, Object>> output = new DdexToTableConverter().convert(new File("src/test/resources/8421597103035.xml")).collect(Collectors.toList());
 		System.out.println(output);
 	}
+
+	public void testGetProductionYearFrom() {
+		assertEquals(2017, new DdexToTableConverter().getProductionYearFrom("NLF711709442"));
+	}
 }
