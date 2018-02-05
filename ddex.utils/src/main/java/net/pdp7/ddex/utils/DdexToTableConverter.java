@@ -57,6 +57,7 @@ public class DdexToTableConverter {
 		Map<String, Object> parentReleaseColumns = new HashMap<String, Object>();
 		ReleaseId releaseId = parentRelease.getReleaseId().get(0);
 		parentReleaseColumns.put("EAN", releaseId.getICPN().getValue());
+		parentReleaseColumns.put("UPC", releaseId.getICPN().getValue());
 		parentReleaseColumns.put("Release Catalog Number", releaseId.getCatalogNumber().getValue());
 		parentReleaseColumns.put("Release Title", parentRelease.getReferenceTitle().getTitleText().getValue());
 		return parentReleaseColumns;
