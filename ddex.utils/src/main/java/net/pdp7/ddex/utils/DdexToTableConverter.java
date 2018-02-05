@@ -20,6 +20,7 @@ import net.ddex.xml.avs.avs.ReleaseType;
 import net.pdp7.ddex.utils.jaxb.Artist;
 import net.pdp7.ddex.utils.jaxb.NewReleaseMessage;
 import net.pdp7.ddex.utils.jaxb.Release;
+import net.pdp7.ddex.utils.jaxb.ReleaseDetailsByTerritory;
 import net.pdp7.ddex.utils.jaxb.ReleaseId;
 import net.pdp7.ddex.utils.jaxb.SubTitle;
 
@@ -67,7 +68,13 @@ public class DdexToTableConverter {
 		trackColumns.put("Track Production Year", getProductionYearFrom(isrc));
 		trackColumns.put("Track Title", track.getReferenceTitle().getTitleText().getValue());
 		trackColumns.put("Track Subtitle", Optional.ofNullable(track.getReferenceTitle().getSubTitle()).map(SubTitle::getValue).orElse(""));
-		List<Artist> releaseDisplayArtists = track.getReleaseDetailsByTerritory().get(0).getDisplayArtist();
+		trackColumns.put("Duration", Duration.parse(track.getDuration().toString()).getSeconds());
+
+		ReleaseDetailsByTerritory firstDetailsByTerritory = track.getReleaseDetailsByTerritory().get(0);
+		trackColumns.put("Track Label", firstDetailsByTerritory.getLabelName().get(0).getValue());
+		trackColumns.put("Track Genre", firstDetailsByTerritory.getGenre().stream().map(g -> g.getGenreText().getValue()).collect(Collectors.joining(", ")));
+
+		List<Artist> releaseDisplayArtists = firstDetailsByTerritory.getDisplayArtist();
 		trackColumns.put("Track Primary Artist", findMainArtist(releaseDisplayArtists).getPartyName().get(0).getFullName().getValue());
 		trackColumns.put("Track Featured Artists", findArtistsOfRole(releaseDisplayArtists, ArtistRole.FEATURED_ARTIST)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
@@ -78,9 +85,7 @@ public class DdexToTableConverter {
 		trackColumns.put("Track Composers", findArtistsOfRole(releaseDisplayArtists, ArtistRole.COMPOSER)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
-		trackColumns.put("Duration", Duration.parse(track.getDuration().toString()).getSeconds());
-		trackColumns.put("Track Label", track.getReleaseDetailsByTerritory().get(0).getLabelName().get(0).getValue());
-		trackColumns.put("Track Genre", track.getReleaseDetailsByTerritory().get(0).getGenre().stream().map(g -> g.getGenreText().getValue()).collect(Collectors.joining(", ")));
+
 		return trackColumns;
 	}
 
