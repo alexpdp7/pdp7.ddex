@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -43,9 +44,11 @@ public class DdexToTableConverter {
 	public Stream<Map<String, Object>> convert(NewReleaseMessage newReleaseMessage) {
 		Release parentRelease = findParentRelease(newReleaseMessage);
 		Map<String, Object> parentReleaseColumns = getParentReleaseColumns(parentRelease);
+		AtomicInteger trackCounter = new AtomicInteger();
 		return findReleasesOfType(newReleaseMessage, ReleaseType.TRACK_RELEASE)
 			.map(this::getTrackColumns)
-			.map((trackColumns) -> { trackColumns.putAll(parentReleaseColumns); return trackColumns; });
+			.map((trackColumns) -> { trackColumns.putAll(parentReleaseColumns); return trackColumns; })
+			.map((trackColumns) -> { trackColumns.put("Track Number", trackCounter.incrementAndGet()); return trackColumns; });
 	}
 
 	protected Map<String, Object> getParentReleaseColumns(Release parentRelease) {
