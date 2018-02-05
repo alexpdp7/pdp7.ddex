@@ -16,6 +16,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
 import net.ddex.xml.avs.avs.ArtistRole;
+import net.ddex.xml.avs.avs.ParentalWarningType;
 import net.ddex.xml.avs.avs.ReleaseType;
 import net.pdp7.ddex.utils.jaxb.Artist;
 import net.pdp7.ddex.utils.jaxb.NewReleaseMessage;
@@ -73,6 +74,7 @@ public class DdexToTableConverter {
 		ReleaseDetailsByTerritory firstDetailsByTerritory = track.getReleaseDetailsByTerritory().get(0);
 		trackColumns.put("Track Label", firstDetailsByTerritory.getLabelName().get(0).getValue());
 		trackColumns.put("Track Genre", firstDetailsByTerritory.getGenre().stream().map(g -> g.getGenreText().getValue()).collect(Collectors.joining(", ")));
+		trackColumns.put("Track Parental Warning", firstDetailsByTerritory.getParentalWarningType().get(0).getValue() == ParentalWarningType.NOT_EXPLICIT ? "No" : "Yes");
 
 		List<Artist> releaseDisplayArtists = firstDetailsByTerritory.getDisplayArtist();
 		trackColumns.put("Track Primary Artist", findMainArtist(releaseDisplayArtists).getPartyName().get(0).getFullName().getValue());
