@@ -25,9 +25,7 @@ public class DdexZipConverter {
 		ZipInputStream zipStream = new ZipInputStream(input);
 		List<Map<String, Object>> table = new ArrayList<>();
 		try {
-			ZipEntry entry;
-			while ((entry = zipStream.getNextEntry()) != null) {
-				System.out.println(entry);
+			while (zipStream.getNextEntry() != null) {
 				table.addAll(tableConverter.convert(new CloseShieldInputStream(zipStream)).collect(Collectors.toList()));
 			}
 			tableToExcel.convert(table, "release").write(out);
