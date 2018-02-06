@@ -82,13 +82,15 @@ public class DdexToTableConverter {
 		trackColumns.put("Track Featured Artists", findArtistsOfRole(releaseDisplayArtists, ArtistRole.FEATURED_ARTIST)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
+		trackColumns.put("Track Remixers", findArtistsOfUserDefinedRole(releaseDisplayArtists, "Remixer")
+				.map(a -> a.getPartyName().get(0).getFullName().getValue())
+				.collect(Collectors.joining(", ")));
 		trackColumns.put("Track Authors", findArtistsOfRole(releaseDisplayArtists, ArtistRole.AUTHOR)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
 		trackColumns.put("Track Composers", findArtistsOfRole(releaseDisplayArtists, ArtistRole.COMPOSER)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
-
 		return trackColumns;
 	}
 
@@ -106,6 +108,11 @@ public class DdexToTableConverter {
 	
 	protected Stream<Artist> findArtistsOfRole(List<Artist> artists, ArtistRole role) {
 		return artists.stream().filter(a -> a.getArtistRole().get(0).getValue().equals(role));
+	}
+
+	protected Stream<Artist> findArtistsOfUserDefinedRole(List<Artist> artists, String userDefinedRole) {
+		return artists.stream().filter(a -> a.getArtistRole().get(0).getUserDefinedValue() != null &&
+				a.getArtistRole().get(0).getUserDefinedValue().equals(userDefinedRole));
 	}
 
 	protected Release findParentRelease(NewReleaseMessage newReleaseMessage) {
