@@ -5,8 +5,17 @@
 	<body>
 		<h1>Convert DDEX to Excel</h1>
 
+		<h2>Convert a single file</h2>
+
 		<form action="/convert_ddex_to_excel" method="POST" enctype="multipart/form-data">
 			<input type="file" name="ddex"/>
+			<input type="submit"/>
+		</form>
+
+		<h2>Convert a zip</h2>
+
+		<form action="/convert_ddex_zip_to_excel" method="POST" enctype="multipart/form-data">
+			<input type="file" name="ddexZip"/>
 			<input type="submit"/>
 		</form>
 	</body>

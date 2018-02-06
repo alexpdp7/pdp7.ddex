@@ -36,4 +36,15 @@ public class DdexWebApp {
 				.header(HttpHeaders.CONTENT_TYPE, "application/vnd.ms-excel")
 				.body(new ByteArrayResource(out.toByteArray()));
 	}
+
+	@PostMapping("/convert_ddex_zip_to_excel")
+	public ResponseEntity<Resource> convertDdexZipToExcel(@RequestParam("ddexZip") MultipartFile ddexZip) throws IOException {
+		ByteArrayOutputStream out = new ByteArrayOutputStream();
+		new DdexZipConverter(new DdexToTableConverter(), new TableToExcel()).convert(ddexZip.getInputStream(), out);
+		return ResponseEntity
+				.ok()
+				.header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"ddex.xls\"")
+				.header(HttpHeaders.CONTENT_TYPE, "application/vnd.ms-excel")
+				.body(new ByteArrayResource(out.toByteArray()));
+	}
 }
