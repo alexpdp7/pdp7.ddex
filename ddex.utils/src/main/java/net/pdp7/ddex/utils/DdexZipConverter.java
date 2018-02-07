@@ -7,11 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 import org.apache.commons.io.input.CloseShieldInputStream;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class DdexZipConverter {
+	protected final Logger logger = LoggerFactory.getLogger(DdexZipConverter.class);
 	protected final DdexToTableConverter tableConverter;
 	protected final TableToExcel tableToExcel;
 
@@ -24,8 +28,14 @@ public class DdexZipConverter {
 		ZipInputStream zipStream = new ZipInputStream(input);
 		List<Map<String, Object>> table = new ArrayList<>();
 		try {
-			while (zipStream.getNextEntry() != null) {
-				table.addAll(tableConverter.convert(new CloseShieldInputStream(zipStream)).collect(Collectors.toList()));
+			ZipEntry entry;
+			while ((entry = zipStream.getNextEntry()) != null) {
+				try {
+					table.addAll(tableConverter.convert(new CloseShieldInputStream(zipStream)).collect(Collectors.toList()));
+				}
+				catch(Exception e) {
+					throw new DdexZipConverterException.GenericErrorOnEntry(entry, e);
+				}
 			}
 			tableToExcel.convert(table, "release").write(out);
 		} catch (IOException e) {
@@ -45,6 +55,15 @@ public class DdexZipConverter {
 		public static class IOProblem extends DdexZipConverterException {
 			protected IOProblem(IOException e) {
 				super("IO Problem", e);
+			}
+		}
+
+		public static class GenericErrorOnEntry extends DdexZipConverterException {
+			protected final ZipEntry entry;
+
+			protected GenericErrorOnEntry(ZipEntry entry, Exception e) {
+				super("Error on entry " + entry, e);
+				this.entry = entry;
 			}
 		}
 	}
