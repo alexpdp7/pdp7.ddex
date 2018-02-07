@@ -1,0 +1,4689 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ern:NewReleaseMessage xmlns:ern="http://ddex.net/xml/ern/37" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:avs="http://ddex.net/xml/avs/avs" xs:schemaLocation="http://ddex.net/xml/ern/37 http://ddex.net/xml/ern/37/release-notification.xsd" MessageSchemaVersionId="ern/37" LanguageAndScriptCode="es">
+  <MessageHeader>
+    <MessageThreadId>11436T115539885</MessageThreadId>
+    <MessageId>11436T115539885M5a66c3c8c6d7b</MessageId>
+    <MessageSender>
+      <PartyId>PADPIDA2010051102D</PartyId>
+      <PartyName>
+        <FullName>Believe SAS</FullName>
+      </PartyName>
+    </MessageSender>
+    <MessageRecipient>
+      <PartyId>PADPIDA20140404055</PartyId>
+      <PartyName>
+        <FullName>Export DDEX</FullName>
+      </PartyName>
+    </MessageRecipient>
+    <MessageCreatedDateTime>2018-01-23T06:10:32+01:00</MessageCreatedDateTime>
+  </MessageHeader>
+  <UpdateIndicator>UpdateMessage</UpdateIndicator>
+  <ResourceList>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500133</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145914</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A1</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Strange</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H4M24S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Strange</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Strange</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Astor Piazzolla</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Astor Piazzolla</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Ediciones Musicales Clipper's</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>S.l.</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_001.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>6e0676ea61ccb8fb6beae36d373b064f</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500134</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145915</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A2</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>El Ultimo Tango En Paris</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H3M54S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>El Ultimo Tango En Paris</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>El Ultimo Tango En Paris</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Gato Barbieri</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Gato Barbieri</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Alberto Grimaldi Productions</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T2</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_002.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>38a6141860ad1cd6ea03135855a4d604</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500135</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145916</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A3</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Yira Yira</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H5M5S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Yira Yira</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Yira Yira</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Peermusic</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T3</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_003.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>af0f46efa23c52ee3a8de84d92dc1c1b</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500136</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145917</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A4</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>La Cumparsita</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H4M52S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>La Cumparsita</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>La Cumparsita</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>G. Matos Rodríguez</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Maroni Y Contursi</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>G. Matos Rodríguez</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Maroni Y Contursi</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Bmg Ricordi</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T4</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_004.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>551c12d70b5efcbe47117d1d7a9bd71b</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500137</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145918</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A5</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Por Una Cabeza</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H5M32S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Por Una Cabeza</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Por Una Cabeza</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Carlos Gardel Y Alfredo Le Pera</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Carlos Gardel Y Alfredo Le Pera</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Warner/chappell Music Argentina/w. Chappell Music Spain</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>S.a.</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T5</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_005.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>6faba17af0fb9cb76bfbcd7a30d0a8e8</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500138</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145919</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A6</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Adios Muchachos</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H4M49S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Adios Muchachos</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Adios Muchachos</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>J.c. Sanders Y C.f. Vedan</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>J.c. Sanders Y C.f. Vedan</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Peermusic</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T6</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_006.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>6a2b2cbf1fa2b80149f80d3bfec6a488</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500139</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145920</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A7</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>El Once</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H5M4S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>El Once</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>El Once</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Emilio Fresedo Y Osvaldo Nicolás Fresedo</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Emilio Fresedo Y Osvaldo Nicolás Fresedo</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Copyright Control</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T7</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_007.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>00e93d9d15a73dcd0095ef58da81bb6f</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500140</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145921</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A8</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>A Media Luz</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H5M15S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>A Media Luz</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>A Media Luz</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>E. Donato Y C. C Lenzi</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>E. Donato Y C. C Lenzi</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Quiroga Ediciones</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T8</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_008.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>9a275e6517d7803d6803d9a5ce3579da</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500152</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145922</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A9</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Re-fa-si</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H5M9S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Re-fa-si</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Re-fa-si</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Delfino</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Delfino</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Bmg Music Publishing Argentina</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>S.a.</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T9</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_009.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>0524cf9d3a5b83e59708b78e8cc5103c</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500153</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145923</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A10</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>El Choclo</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H4M7S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>El Choclo</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>El Choclo</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>A. Villoido</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>E. Santos Discépolo Y C. Marcambio Catan</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>A. Villoido</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>E. Santos Discépolo Y C. Marcambio Catan</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Peermusic</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T10</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_010.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>c4a452ea2b67e46564ccf9440f565276</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500154</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145924</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A11</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Adios Nonino</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H5M49S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Adios Nonino</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Adios Nonino</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Astor Piazzolla</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Astor Piazzolla</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Les Editions Universelles (france)</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T11</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_011.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>65f0c2f86bee98c64e28be9d98b22872</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500155</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145925</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A12</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Malena</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H5M1S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Malena</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Malena</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Homero Manzi Y Lucio Demare</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Homero Manzi Y Lucio Demare</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Warner/chappell Music Argentina/w. Chappell Music Spain</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>S.a.</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T12</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_012.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>0e3a1e059b202466b0e2b6ee97829381</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500156</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145926</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A13</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Uno</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H5M59S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Uno</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Uno</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo Y Mariano Mores</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo Y Mariano Mores</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Peermusic</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T13</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_013.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>abed9ef65c852886639e3994b13da3fb</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500157</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145927</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A14</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Cuesta Abajo</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H4M18S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Cuesta Abajo</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Cuesta Abajo</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Carlos Gardel Y Alfredo Le Pera</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Carlos Gardel Y Alfredo Le Pera</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Warner/chappell Music Argentina/w. Chappell Music Spain</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>S.a.</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T14</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_014.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>823eda30306c8e1e059e884e5fab473c</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>FR6V80500158</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">res145928</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A15</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>Cafetin De Buenos Aires</TitleText>
+      </ReferenceTitle>
+      <LanguageOfPerformance>es</LanguageOfPerformance>
+      <Duration>PT0H4M25S</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>Cafetin De Buenos Aires</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Cafetin De Buenos Aires</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo Y Mariano Mores</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo Y Mariano Mores</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>Peermusic</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <LabelName>Blanco Y Negro</LabelName>
+        <PLine>
+          <Year>2005</Year>
+          <PLineText>Blanco Y Negro Music</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T15</TechnicalResourceDetailsReference>
+          <AudioCodecType>FLAC</AudioCodecType>
+          <BitRate UnitOfMeasure="kbps">1411</BitRate>
+          <NumberOfChannels>2</NumberOfChannels>
+          <SamplingRate>44100</SamplingRate>
+          <BitsPerSample>16</BitsPerSample>
+          <IsPreview>false</IsPreview>
+          <PreviewDetails>
+            <StartPoint>30.000</StartPoint>
+            <Duration>PT30S</Duration>
+            <ExpressionType>Instructive</ExpressionType>
+          </PreviewDetails>
+          <File>
+            <FileName>47_8421597045878_01_015.flac</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>3db6682c55271aa4dc9018a583eb8579</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <Image>
+      <ImageType>FrontCoverImage</ImageType>
+      <ImageId>
+        <ProprietaryId Namespace="PADPIDA2010051102D">cover11436</ProprietaryId>
+      </ImageId>
+      <ResourceReference>A16</ResourceReference>
+      <ImageDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <TechnicalImageDetails>
+          <TechnicalResourceDetailsReference>T16</TechnicalResourceDetailsReference>
+          <ImageCodecType>JPEG</ImageCodecType>
+          <ImageHeight>1440</ImageHeight>
+          <ImageWidth>1440</ImageWidth>
+          <File>
+            <FileName>8421597045878.jpg</FileName>
+            <FilePath>resources/</FilePath>
+            <HashSum>
+              <HashSum>2ffe20949044918e1157b601cf7a791e</HashSum>
+              <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+            </HashSum>
+          </File>
+        </TechnicalImageDetails>
+      </ImageDetailsByTerritory>
+    </Image>
+  </ResourceList>
+  <ReleaseList>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145914J</GRid>
+        <ISRC>FR6V80500133</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145914</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R1</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Strange</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Strange</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Strange</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Astor Piazzolla</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Astor Piazzolla</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H4M24S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145915H</GRid>
+        <ISRC>FR6V80500134</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145915</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R2</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>El Ultimo Tango En Paris</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>El Ultimo Tango En Paris</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>El Ultimo Tango En Paris</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Gato Barbieri</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Gato Barbieri</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H3M54S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145916F</GRid>
+        <ISRC>FR6V80500135</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145916</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R3</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Yira Yira</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Yira Yira</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Yira Yira</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H5M5S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145917D</GRid>
+        <ISRC>FR6V80500136</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145917</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R4</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>La Cumparsita</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>La Cumparsita</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>La Cumparsita</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>G. Matos Rodríguez</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Maroni Y Contursi</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>G. Matos Rodríguez</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Maroni Y Contursi</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H4M52S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145918B</GRid>
+        <ISRC>FR6V80500137</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145918</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R5</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Por Una Cabeza</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Por Una Cabeza</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Por Una Cabeza</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Carlos Gardel Y Alfredo Le Pera</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Carlos Gardel Y Alfredo Le Pera</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H5M32S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT0001459199</GRid>
+        <ISRC>FR6V80500138</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145919</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R6</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Adios Muchachos</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Adios Muchachos</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Adios Muchachos</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>J.c. Sanders Y C.f. Vedan</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>J.c. Sanders Y C.f. Vedan</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H4M49S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145920N</GRid>
+        <ISRC>FR6V80500139</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145920</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R7</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>El Once</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>El Once</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>El Once</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Emilio Fresedo Y Osvaldo Nicolás Fresedo</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Emilio Fresedo Y Osvaldo Nicolás Fresedo</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H5M4S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145921L</GRid>
+        <ISRC>FR6V80500140</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145921</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R8</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>A Media Luz</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>A Media Luz</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>A Media Luz</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>E. Donato Y C. C Lenzi</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>E. Donato Y C. C Lenzi</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H5M15S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145922J</GRid>
+        <ISRC>FR6V80500152</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145922</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R9</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Re-fa-si</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Re-fa-si</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Re-fa-si</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Delfino</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Delfino</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H5M9S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145923H</GRid>
+        <ISRC>FR6V80500153</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145923</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R10</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>El Choclo</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>El Choclo</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>El Choclo</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>A. Villoido</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>E. Santos Discépolo Y C. Marcambio Catan</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>A. Villoido</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>E. Santos Discépolo Y C. Marcambio Catan</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H4M7S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145924F</GRid>
+        <ISRC>FR6V80500154</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145924</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R11</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Adios Nonino</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A11</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Adios Nonino</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Adios Nonino</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Astor Piazzolla</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Astor Piazzolla</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H5M49S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145925D</GRid>
+        <ISRC>FR6V80500155</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145925</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R12</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Malena</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A12</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Malena</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Malena</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Homero Manzi Y Lucio Demare</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Homero Manzi Y Lucio Demare</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H5M1S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT000145926B</GRid>
+        <ISRC>FR6V80500156</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145926</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R13</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Uno</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A13</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Uno</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Uno</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo Y Mariano Mores</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo Y Mariano Mores</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H5M59S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT0001459279</GRid>
+        <ISRC>FR6V80500157</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145927</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R14</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Cuesta Abajo</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A14</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Cuesta Abajo</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Cuesta Abajo</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Carlos Gardel Y Alfredo Le Pera</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Carlos Gardel Y Alfredo Le Pera</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H4M18S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WT0001459287</GRid>
+        <ISRC>FR6V80500158</ISRC>
+        <ProprietaryId Namespace="PADPIDA2010051102D">145928</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R15</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Cafetin De Buenos Aires</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A15</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Cafetin De Buenos Aires</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Cafetin De Buenos Aires</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo Y Mariano Mores</FullName>
+          </PartyName>
+          <ArtistRole>Author</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Enrique Santos Discépolo Y Mariano Mores</FullName>
+          </PartyName>
+          <ArtistRole>Composer</ArtistRole>
+        </DisplayArtist>
+        <RelatedRelease>
+          <ReleaseId>
+            <GRid>A10320WA0000114366</GRid>
+            <ICPN IsEan="true">8421597045878</ICPN>
+            <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+          </ReleaseId>
+          <ReferenceTitle>
+            <TitleText>Tango Chillout</TitleText>
+          </ReferenceTitle>
+          <ReleaseRelationshipType>IsReleaseFromRelease</ReleaseRelationshipType>
+        </RelatedRelease>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT0H4M25S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <GRid>A10320WA0000114366</GRid>
+        <ICPN IsEan="true">8421597045878</ICPN>
+        <ProprietaryId Namespace="PADPIDA2010051102D">11436</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R0</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>Tango Chillout</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A11</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A12</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A13</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A14</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A15</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A16</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>Album</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Tango Chillout</DisplayArtistName>
+        <LabelName>Blanco Y Negro</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>Tango Chillout</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>Tango Chillout</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>Tango Chillout</FullName>
+          </PartyName>
+          <ArtistRole>Artist</ArtistRole>
+        </DisplayArtist>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <ResourceGroup>
+          <ResourceGroup>
+            <SequenceNumber>1</SequenceNumber>
+            <ResourceGroupContentItem>
+              <SequenceNumber>1</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>2</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>3</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>4</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>5</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>6</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>7</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>8</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>9</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>10</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>11</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A11</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>12</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A12</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>13</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A13</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>14</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A14</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+            <ResourceGroupContentItem>
+              <SequenceNumber>15</SequenceNumber>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A15</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+          </ResourceGroup>
+          <ResourceGroupContentItem>
+            <SequenceNumber>1</SequenceNumber>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A16</ReleaseResourceReference>
+          </ResourceGroupContentItem>
+        </ResourceGroup>
+        <Genre>
+          <GenreText>Dance - Electro</GenreText>
+        </Genre>
+        <OriginalReleaseDate>2005-05-01</OriginalReleaseDate>
+        <OriginalDigitalReleaseDate>2007-07-06</OriginalDigitalReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <Duration>PT1H13M43S</Duration>
+      <PLine>
+        <Year>2005</Year>
+        <PLineText>Blanco Y Negro Music</PLineText>
+      </PLine>
+      <CLine>
+        <Year>2005</Year>
+        <CLineText>Blanco Y Negro Music</CLineText>
+      </CLine>
+    </Release>
+  </ReleaseList>
+  <DealList>
+    <ReleaseDeal>
+      <DealReleaseReference>R0</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">MIDFRONT</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">MIDFRONT</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R1</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R2</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R3</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R4</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R5</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R6</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R7</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R8</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R9</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R10</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R11</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R12</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R13</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R14</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+    <ReleaseDeal>
+      <DealReleaseReference>R15</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+          <Usage>
+            <UseType>PermanentDownload</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <Deal>
+        <DealTerms>
+          <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>OnDemandStream</UseType>
+            <UseType>NonInteractiveStream</UseType>
+          </Usage>
+          <TerritoryCode>AT</TerritoryCode>
+          <TerritoryCode>BE</TerritoryCode>
+          <TerritoryCode>CY</TerritoryCode>
+          <TerritoryCode>CZ</TerritoryCode>
+          <TerritoryCode>DE</TerritoryCode>
+          <TerritoryCode>DK</TerritoryCode>
+          <TerritoryCode>EE</TerritoryCode>
+          <TerritoryCode>ES</TerritoryCode>
+          <TerritoryCode>FI</TerritoryCode>
+          <TerritoryCode>FR</TerritoryCode>
+          <TerritoryCode>GB</TerritoryCode>
+          <TerritoryCode>GR</TerritoryCode>
+          <TerritoryCode>HU</TerritoryCode>
+          <TerritoryCode>IE</TerritoryCode>
+          <TerritoryCode>IS</TerritoryCode>
+          <TerritoryCode>IT</TerritoryCode>
+          <TerritoryCode>LI</TerritoryCode>
+          <TerritoryCode>LT</TerritoryCode>
+          <TerritoryCode>LU</TerritoryCode>
+          <TerritoryCode>LV</TerritoryCode>
+          <TerritoryCode>MT</TerritoryCode>
+          <TerritoryCode>NL</TerritoryCode>
+          <TerritoryCode>NO</TerritoryCode>
+          <TerritoryCode>PL</TerritoryCode>
+          <TerritoryCode>PT</TerritoryCode>
+          <TerritoryCode>SE</TerritoryCode>
+          <TerritoryCode>SI</TerritoryCode>
+          <TerritoryCode>SK</TerritoryCode>
+          <PriceInformation>
+            <PriceRangeType Namespace="PADPIDA2010051102D">SINGLE3</PriceRangeType>
+          </PriceInformation>
+          <ValidityPeriod>
+            <StartDate>2007-07-06</StartDate>
+          </ValidityPeriod>
+        </DealTerms>
+      </Deal>
+      <EffectiveDate>2018-01-23</EffectiveDate>
+    </ReleaseDeal>
+  </DealList>
+</ern:NewReleaseMessage>

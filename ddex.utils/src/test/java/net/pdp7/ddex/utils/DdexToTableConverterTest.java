@@ -13,6 +13,11 @@ public class DdexToTableConverterTest extends TestCase {
 		System.out.println(output);
 	}
 
+	public void testNoCatalogueNumber() throws Exception {
+		List<Map<String, Object>> output = new DdexToTableConverter().convert(new File("src/test/resources/8421597045878.xml")).collect(Collectors.toList());
+		System.out.println(output);
+	}
+
 	public void testGetProductionYearFrom() {
 		assertEquals(2017, new DdexToTableConverter().getProductionYearFrom("NLF711709442"));
 	}
