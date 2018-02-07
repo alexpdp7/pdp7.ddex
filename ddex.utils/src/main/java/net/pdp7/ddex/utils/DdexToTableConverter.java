@@ -68,6 +68,7 @@ public class DdexToTableConverter {
 		Map<String, Object> trackColumns = new HashMap<String, Object>();
 		String isrc = track.getReleaseId().get(0).getISRC();
 		trackColumns.put("ISRC", isrc);
+		trackColumns.put("Track Volume", 1);
 		trackColumns.put("Track Production Year", getProductionYearFrom(isrc));
 		trackColumns.put("Track Title", track.getReferenceTitle().getTitleText().getValue());
 		trackColumns.put("Track Subtitle", Optional.ofNullable(track.getReferenceTitle().getSubTitle()).map(SubTitle::getValue).orElse(""));
