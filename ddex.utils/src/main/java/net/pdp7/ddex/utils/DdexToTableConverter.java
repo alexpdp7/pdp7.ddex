@@ -23,6 +23,7 @@ import net.pdp7.ddex.utils.jaxb.NewReleaseMessage;
 import net.pdp7.ddex.utils.jaxb.Release;
 import net.pdp7.ddex.utils.jaxb.ReleaseDetailsByTerritory;
 import net.pdp7.ddex.utils.jaxb.ReleaseId;
+import net.pdp7.ddex.utils.jaxb.SoundRecording;
 import net.pdp7.ddex.utils.jaxb.SubTitle;
 
 public class DdexToTableConverter {
@@ -92,6 +93,10 @@ public class DdexToTableConverter {
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
 		trackColumns.put("Track Production Owner", track.getPLine().get(0).getPLineText());
+
+		SoundRecording soundRecording = (SoundRecording) track.getReleaseResourceReferenceList().getReleaseResourceReference().get(0).getValue();
+		trackColumns.put("Lyrics Language", soundRecording.getLanguageOfPerformance().value());
+
 		return trackColumns;
 	}
 
