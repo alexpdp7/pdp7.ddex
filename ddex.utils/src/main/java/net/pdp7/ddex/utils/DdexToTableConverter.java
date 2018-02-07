@@ -93,6 +93,7 @@ public class DdexToTableConverter {
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
 		trackColumns.put("Track Production Owner", track.getPLine().get(0).getPLineText());
+		trackColumns.put("Track P Line", track.getPLine().get(0).getPLineText());
 
 		SoundRecording soundRecording = (SoundRecording) track.getReleaseResourceReferenceList().getReleaseResourceReference().get(0).getValue();
 		trackColumns.put("Lyrics Language", soundRecording.getLanguageOfPerformance().value());
