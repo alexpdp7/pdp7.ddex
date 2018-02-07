@@ -93,6 +93,7 @@ public class DdexToTableConverter {
 		trackColumns.put("Track Composers", findArtistsOfRole(releaseDisplayArtists, ArtistRole.COMPOSER)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
+		trackColumns.put("Track Copyright Owner", getCopyRightOwnerFromPLineText(track.getPLine().get(0).getPLineText()));
 		trackColumns.put("Track Production Owner", track.getPLine().get(0).getPLineText());
 		trackColumns.put("Track P Line", track.getPLine().get(0).getPLineText());
 
@@ -100,6 +101,16 @@ public class DdexToTableConverter {
 		trackColumns.put("Lyrics Language", soundRecording.getLanguageOfPerformance().value());
 
 		return trackColumns;
+	}
+
+	protected String getCopyRightOwnerFromPLineText(String pLineText) {
+		String[] delimiters = new String[] { "license to ", };
+		for(String delimiter : delimiters) {
+			if(pLineText.toLowerCase().contains(delimiter)) {
+				return pLineText.substring(pLineText.toLowerCase().indexOf(delimiter) + delimiter.length());
+			}
+		}
+		return pLineText;
 	}
 
 	protected int getProductionYearFrom(String isrc) {
