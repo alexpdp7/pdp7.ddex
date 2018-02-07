@@ -91,6 +91,7 @@ public class DdexToTableConverter {
 		trackColumns.put("Track Composers", findArtistsOfRole(releaseDisplayArtists, ArtistRole.COMPOSER)
 				.map(a -> a.getPartyName().get(0).getFullName().getValue())
 				.collect(Collectors.joining(", ")));
+		trackColumns.put("Track Production Owner", track.getPLine().get(0).getPLineText());
 		return trackColumns;
 	}
 
