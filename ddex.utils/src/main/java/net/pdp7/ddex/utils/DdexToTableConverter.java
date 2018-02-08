@@ -2,7 +2,10 @@ package net.pdp7.ddex.utils;
 
 import java.io.File;
 import java.io.InputStream;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -61,6 +64,9 @@ public class DdexToTableConverter {
 		parentReleaseColumns.put("UPC", releaseId.getICPN().getValue());
 		parentReleaseColumns.put("Release Catalog Number", releaseId.getCatalogNumber() != null ? releaseId.getCatalogNumber().getValue() : "No Catalog Number");
 		parentReleaseColumns.put("Release Title", parentRelease.getReferenceTitle().getTitleText().getValue());
+		ReleaseDetailsByTerritory firstReleaseDetailsByTerritory = parentRelease.getReleaseDetailsByTerritory().get(0);
+		parentReleaseColumns.put("Release Physical Release Date", firstReleaseDetailsByTerritory.getOriginalReleaseDate().getValue());
+		parentReleaseColumns.put("Release Digital Release Date", firstReleaseDetailsByTerritory.getOriginalDigitalReleaseDate().getValue());
 		return parentReleaseColumns;
 	}
 
