@@ -67,6 +67,7 @@ public class DdexToTableConverter {
 		ReleaseDetailsByTerritory firstReleaseDetailsByTerritory = parentRelease.getReleaseDetailsByTerritory().get(0);
 		parentReleaseColumns.put("Release Physical Release Date", firstReleaseDetailsByTerritory.getOriginalReleaseDate().getValue());
 		parentReleaseColumns.put("Release Digital Release Date", firstReleaseDetailsByTerritory.getOriginalDigitalReleaseDate().getValue());
+		parentReleaseColumns.put("Release P Line", parentRelease.getPLine().get(0).getPLineText());
 		return parentReleaseColumns;
 	}
 
