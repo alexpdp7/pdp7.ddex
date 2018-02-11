@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
@@ -19,6 +20,7 @@ import net.ddex.xml.avs.avs.ArtistRole;
 import net.ddex.xml.avs.avs.ParentalWarningType;
 import net.ddex.xml.avs.avs.ReleaseType;
 import net.pdp7.ddex.utils.jaxb.Artist;
+import net.pdp7.ddex.utils.jaxb.DealTerms;
 import net.pdp7.ddex.utils.jaxb.NewReleaseMessage;
 import net.pdp7.ddex.utils.jaxb.Release;
 import net.pdp7.ddex.utils.jaxb.ReleaseDetailsByTerritory;
@@ -49,7 +51,7 @@ public class DdexToTableConverter {
 		Map<String, Object> parentReleaseColumns = getParentReleaseColumns(parentRelease);
 		AtomicInteger trackCounter = new AtomicInteger();
 		return findReleasesOfType(newReleaseMessage, ReleaseType.TRACK_RELEASE)
-			.map(this::getTrackColumns)
+			.map((track) -> getTrackColumns(track, newReleaseMessage))
 			.map((trackColumns) -> { trackColumns.putAll(parentReleaseColumns); return trackColumns; })
 			.map((trackColumns) -> { trackColumns.put("Track Number", trackCounter.incrementAndGet()); return trackColumns; });
 	}
@@ -67,7 +69,7 @@ public class DdexToTableConverter {
 		return parentReleaseColumns;
 	}
 
-	protected Map<String, Object> getTrackColumns(Release track) {
+	protected Map<String, Object> getTrackColumns(Release track, NewReleaseMessage newReleaseMessage) {
 		Map<String, Object> trackColumns = new HashMap<String, Object>();
 		String isrc = track.getReleaseId().get(0).getISRC();
 		trackColumns.put("ISRC", isrc);
@@ -103,7 +105,22 @@ public class DdexToTableConverter {
 		SoundRecording soundRecording = (SoundRecording) track.getReleaseResourceReferenceList().getReleaseResourceReference().get(0).getValue();
 		trackColumns.put("Lyrics Language", soundRecording.getLanguageOfPerformance().value());
 
+		DealTerms dealTerms = findDealTerms(track, newReleaseMessage);
+		trackColumns.put("Track Territories To Deliver", dealTerms.getTerritoryCode().stream()
+				.map((territoryCode) -> territoryCode.getValue())
+				.collect(Collectors.joining(",")));
 		return trackColumns;
+	}
+
+	protected DealTerms findDealTerms(Release track, NewReleaseMessage newReleaseMessage) {
+		return newReleaseMessage.getDealList().getReleaseDeal()
+				.stream()
+				.filter((releaseDeal) -> ((JAXBElement<?>) releaseDeal.getDealReleaseReference().get(0).getValue()).getValue() == track.getReleaseReference().get(0).getValue())
+				.reduce((a, b) -> { throw new DdexToTableConverterException.MultipleReleaseDealsFound(newReleaseMessage); })
+				.get()
+				.getDeal()
+				.get(0)
+				.getDealTerms();
 	}
 
 	protected String getCopyRightOwnerFromPLineText(String pLineText) {
@@ -169,6 +186,15 @@ public class DdexToTableConverter {
 
 			protected MultipleParentReleasesFound(NewReleaseMessage newReleaseMessage) {
 				super("Multiple parent releases found in " + newReleaseMessage);
+				this.newReleaseMessage = newReleaseMessage;
+			}
+		}
+
+		public static class MultipleReleaseDealsFound extends DdexToTableConverterException {
+			public final NewReleaseMessage newReleaseMessage;
+
+			protected MultipleReleaseDealsFound(NewReleaseMessage newReleaseMessage) {
+				super("Multiple release deals found in " + newReleaseMessage);
 				this.newReleaseMessage = newReleaseMessage;
 			}
 		}
