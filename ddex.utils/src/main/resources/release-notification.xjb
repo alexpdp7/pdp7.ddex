@@ -13,5 +13,8 @@
 		<jxb:bindings node="//xs:complexType[@name='Artist']/xs:sequence/xs:choice/xs:element[@name='PartyId']">
 			<jxb:property name="SinglePartyId"/>
 		</jxb:bindings>
+		<jxb:bindings node="//xs:complexType[@name='IndirectResourceContributor']/xs:element[@name='PartyId']">
+			<jxb:property name="ContributorPartyId"/>
+		</jxb:bindings>
 	</jxb:bindings> 
 </jxb:bindings> 
