@@ -21,6 +21,7 @@ import net.ddex.xml.avs.avs.ParentalWarningType;
 import net.ddex.xml.avs.avs.ReleaseType;
 import net.pdp7.ddex.utils.jaxb.Artist;
 import net.pdp7.ddex.utils.jaxb.DealTerms;
+import net.pdp7.ddex.utils.jaxb.IndirectResourceContributor;
 import net.pdp7.ddex.utils.jaxb.NewReleaseMessage;
 import net.pdp7.ddex.utils.jaxb.Release;
 import net.pdp7.ddex.utils.jaxb.ReleaseDetailsByTerritory;
@@ -104,12 +105,24 @@ public class DdexToTableConverter {
 
 		SoundRecording soundRecording = (SoundRecording) track.getReleaseResourceReferenceList().getReleaseResourceReference().get(0).getValue();
 		trackColumns.put("Lyrics Language", soundRecording.getLanguageOfPerformance().value());
+		trackColumns.put("Track Publishers", getTrackPublishers(soundRecording)
+				.map((publisher) -> publisher.getPartyName().get(0).getFullName().getValue())
+				.collect(Collectors.joining(", ")));
 
 		DealTerms dealTerms = findDealTerms(track, newReleaseMessage);
 		trackColumns.put("Track Territories To Deliver", dealTerms.getTerritoryCode().stream()
 				.map((territoryCode) -> territoryCode.getValue())
 				.collect(Collectors.joining(",")));
 		return trackColumns;
+	}
+
+	protected Stream<IndirectResourceContributor> getTrackPublishers(SoundRecording soundRecording) {
+		return soundRecording
+				.getSoundRecordingDetailsByTerritory()
+				.get(0)
+				.getIndirectResourceContributor()
+				.stream()
+				.filter((contributor) -> contributor.getIndirectResourceContributorRole().get(0).getValue().equals("MusicPublisher"));
 	}
 
 	protected DealTerms findDealTerms(Release track, NewReleaseMessage newReleaseMessage) {
